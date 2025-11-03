@@ -21,14 +21,6 @@ struct ToolsView: View {
         NavigationStack{
             
             List{
-                Section("Student Assosiation"){
-                    NavigationLink(destination:Passwords()){
-                        HStack{
-                            Image(systemName:"key")
-                            Text("Passwords")
-                        }
-                    }
-                }
                 Section("Tools"){
                     NavigationLink(destination: YearConvert()){
                         HStack{

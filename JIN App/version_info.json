@@ -3,6 +3,11 @@
         "group":"ver. 3.X.X",
         "info":[
             {
+                "version":"3.2.1",
+                "features":
+                "・Delete Passwords menu.\n・Deleted 新入生歓迎会 menu.\n・Fix some bugs."
+            },
+            {
                 "version":"3.2.0",
                 "features":
                 "・Add all new Passwords menu. You can chack your password here.\n・Deleted 新入生歓迎会 menu.\n・Grading is now change at time.\n・Calender tile are now abilivable on darkmode.\n・Fix some bugs."
