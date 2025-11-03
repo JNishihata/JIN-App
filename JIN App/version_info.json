@@ -1,0 +1,85 @@
+{"versions":[
+    {
+        "group":"ver. 3.X.X",
+        "info":[
+            {
+                "version":"3.2.0",
+                "features":
+                "・Add all new Passwords menu. You can chack your password here.\n・Deleted 新入生歓迎会 menu.\n・Grading is now change at time.\n・Calender tile are now abilivable on darkmode.\n・Fix some bugs."
+            },
+            {
+                "version":"3.1.0",
+                "features":
+                "・Made some improvement on tabbar and navigationStack.\n・When open sub menu, Tabbar will be hide.\n・Fix some bugs."
+            },
+            {
+                "version":"3.0.0",
+                "features":
+                "・Add Tab Bar.\n・Add Discover menu. You can get latest informations here.\n・Fix some bugs."
+            }
+        ]
+    },
+    {
+        "group":"ver. 2.X.X",
+        "info":[
+            {
+                "version":"2.4.2",
+                "features":
+                "・Made some improvement.\n・Fix bugs."
+            },
+            {   "version":"2.4.1",
+                "features":
+                "・Add Barcode Scan but You can't use this. Please wait release.・Made some improvement on Year Converter.\n・Fix some bugs."
+            },
+            {   "version":"2.3.2",
+                "features":
+                "・Made some inprovement of Year Converter.\n・Fix some bugs."
+            },
+            {   "version":"2.3.1",
+                "features":
+                "・Made some improvement.\n・Fix some bugs."
+            },
+            {
+                "version":"2.3.0",
+                "features":
+                "・Made Some improvement\n・Added Year Converter. You can now use to convert Seireki to Nengou and Nengou to Seireki.\n・Fix some bugs."
+            },
+            {
+                "version":"2.2.1",
+                "features":
+                "・Made Some improvement"
+            },
+            {
+                "version":"2.2.0",
+                "features":
+                "・You can now change the app language to English or Japanese.\n・Added a Settings menu.\n・Fix some bugs"
+            },
+            {
+                "version":"2.1.1",
+                "features":
+                "・Change navigation title in the Color Picker screen."
+            },
+            {
+                "version":"2.1.0",
+                "features":
+                "・Change App varsion information leyout in the About screen.\n・Add a navigation Title to the Version Information screen.\n・Fix some bugs"
+            },
+            {
+                "version":"2.0.0",
+                "features":
+                "・Added icon to the home screen.\n・Fix some bugs"
+            }
+        ]
+    },
+    {
+        "group":"ver. 1.X.X",
+        "info":[
+            {
+                "version":"1.0.0",
+                "features":
+                "This is first version of JIN App. Thank you for using this app."
+            }
+        ]
+    }
+]
+}

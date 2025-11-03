@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  JIN App
+
+  Created by Jintaro Nishihata on 2025/03/04.
+  
+*/
+"App Version" = "バージョン";
+"Creater" = "制作者";
+"Jintaro Nishihata" = "西畑 仁太郎";
+"Photo" = "写真";
+"Toggle" = "トグルスイッチ";
+"Color Picker" = "カラーピッカー";
+"Slider" = "スライダー";
+"Text Field" = "テキストフィールド";
+"Gauge" = "ゲージ";
+"About" = "情報";
+"Version Infomation" = "バージョン情報";
+"Settings" = "設定";
+"Image" = "画像";
+"Input" = "入力";
+"Output" = "出力";
+"Others" = "その他";
+"Language" = "言語";
+"Open settings app" = "設定アプリを開く";
+"Set_link_info" = "設定を変更するには、設定アプリを開いてください。";
+"Switch" = "スイッチ";
+"Enter text" = "テキストを入力";
+"Total" = "合計";
+"A.D." = "西暦";
+"Reiwa" = "令和";
+"Heisei" = "平成";
+"Syowa" = "昭和";
+"Year Converter" = "西暦年号変換";
+"Seireki to Nengo" = "西暦を変換";
+"Reiwa to Other" = "令和を変換";
+"Heisei to Other" = "平成を変換";
+"Syowa to Seireki" = "昭和を変換";
+"A.D." = "西暦";
+"Enter the year" = "ここに入力";
+"Convert" = "変換";
+"Tools" = "ツール";
+"Discover" = "探索";
+"Other" = "その他";

@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "898D9279-7D48-418C-8D8D-43A19A3B7AE4.jpeg",
+      "idiom" : "universal",
+      "platform" : "watchos",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

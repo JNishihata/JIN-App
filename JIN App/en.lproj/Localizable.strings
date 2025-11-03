@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  JIN App
+
+  Created by Jintaro Nishihata on 2025/03/04.
+  
+*/
+"App Version" = "App Version";
+"Creater" = "Creater";
+"Jintaro Nishihata" = "Jintaro Nishihata";
+"Photo" = "Photo";
+"Toggle" = "Toggle";
+"Color Picker" = "Color Picker";
+"Slider" = "Slider";
+"Text Field" = "Text Field";
+"Gauge" = "Gauge";
+"About" = "About";
+"Version Infomation" = "Version Infomation";
+"Settings" = "Settings";
+"Image" = "Image";
+"Input" = "Input";
+"Output" = "Output";
+"Others" = "Others";
+"Language" = "Language";
+"Open settings app" = "Open settings app";
+"Set_link_info" = "Open settings app to change setting.";
+"Switch" = "Switch";
+"Enter text" = "Enter text";
+"Total" = "Total";
+"Year Converter" = "Year Converter";
+"A.D." = "A.D.";
+"Reiwa" = "Reiwa";
+"Heisei" = "Heisei";
+"Syowa" = "Syowa";
+"Seireki to Nengo" = "Seireki to Nengo";
+"Reiwa to Other" = "Reiwa to Other";
+"Heisei to Other" = "Heisei to Other";
+"Syowa to Seireki" = "Syowa to Seireki";
+"Enter the year" = "Enter the year";
+"Convert" = "Convert";
+"Tools" = "Tools";
+"Discover" = "Discover";
+"Other" = "Other";
