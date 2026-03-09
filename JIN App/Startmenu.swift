@@ -136,12 +136,13 @@ struct calendarWidget: View{
             }
         }
     }
+    
 }
 
 
-struct Startmenu_Previews: PreviewProvider{
-    static var previews: some View{
-        Startmenu()
-    }
+
+#Preview{
+    Startmenu()
 }
+
 
