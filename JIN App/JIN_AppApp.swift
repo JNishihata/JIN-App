@@ -15,26 +15,35 @@ struct JIN_AppApp: App {
         case tab1 = "Main"
         case tab2 = "Discover"
     }
-    @State var tabtitle: String = "JIN App"
+    @State var tabtitle: String = "For You"
     var body: some Scene {
         WindowGroup {
-            NavigationStack{
-                TabView(selection: $tabtitle){
-                    Tab("For You", systemImage:"star",value:"For You"){
+            TabView(selection: $tabtitle){
+                Tab("For You", systemImage:"star",value:"For You"){
+                    NavigationStack{
                         Startmenu()
-                    }
-                    Tab("Tools", systemImage: "wrench.and.screwdriver", value:"Tools"){
-                        ToolsView()
-                    }
-                    Tab("Discover", systemImage: "safari", value: "Discover"){
-                        DiscoverView()
-                    }
-                    Tab("Other",systemImage:"ellipsis", value:"Other"){
-                        OtherView()
+                            .navigationTitle(tabtitle)
                     }
                 }
-                .navigationTitle(tabtitle)
-            }
+                Tab("Tools", systemImage: "wrench.and.screwdriver", value:"Tools"){
+                    NavigationStack{
+                        ToolsView()
+                            .navigationTitle(tabtitle)
+                    }
+                }
+                Tab("Discover", systemImage: "safari", value: "Discover"){
+                    NavigationStack{
+                        DiscoverView()
+                            .navigationTitle(tabtitle)
+                    }
+                }
+                Tab("Other",systemImage:"ellipsis", value:"Other"){
+                    NavigationStack{
+                        OtherView()
+                            .navigationTitle(tabtitle)
+                    }
+                }
+            }.tabViewStyle(.sidebarAdaptable)
         }
     }
 }
