@@ -24,3 +24,6 @@ struct ColorPick: View{
     }
 }
 
+#Preview {
+    ColorPick()
+}

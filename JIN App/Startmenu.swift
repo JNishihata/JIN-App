@@ -13,8 +13,8 @@ import ActivityKit
 
 struct Startmenu: View{
     @Environment(\.colorScheme) var colorScheme
-    @State var darkColor:Double = 0.17
-    @State var lightColor:Double = 0.93
+    let darkColor:Double = 0.17
+    let lightColor:Double = 0.93
     @State var backColor = Color(red:0.00,green:0.00,blue:0.00)
     @State var nowtime = Date()
     @Environment(\.horizontalSizeClass) var sizeClass
@@ -36,6 +36,7 @@ struct Startmenu: View{
                             .font(.largeTitle)
                             .multilineTextAlignment(.leading)
                     }
+                    Spacer()
                 }
                 Text(Date(), style: .date)
                     .font(.headline)
@@ -134,40 +135,6 @@ struct calendarWidget: View{
                     .cornerRadius(10)
             }
         }
-    }
-}
-
-func formattedDate(_ date: Date) -> String {
-    let formatter = DateFormatter()
-    formatter.dateFormat = "MM/dd HH:mm"
-    return formatter.string(from: date)
-}
-
-func formattedTime(_ date: Date) -> String{
-    let formatter = DateFormatter()
-    formatter.dateFormat = "HH:mm"
-    return formatter.string(from: date)
-}
-
-func formattedIsland(_ date: Date) -> String{
-    let formatter = DateFormatter()
-    formatter.dateFormat = "MM/dd\n HH:mm"
-    return formatter.string(from: date)
-}
-
-public func hello(for date: Date) -> String {
-    let nowHour = Calendar.current.component(.hour, from:Date())
-    if(nowHour < 4){
-        return "Welcome back"
-    }
-    else if(nowHour < 11){
-        return "Good morning"
-    }
-    else if(nowHour < 18){
-        return "Good afternoon"
-    }
-    else{
-        return "Good evening"
     }
 }
 

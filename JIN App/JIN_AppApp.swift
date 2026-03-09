@@ -11,40 +11,44 @@ import SwiftUI
 
 @main
 struct JIN_AppApp: App {
-    enum Tabs: String{
-        case tab1 = "Main"
-        case tab2 = "Discover"
-    }
-    @State var tabtitle: String = "For You"
     var body: some Scene {
         WindowGroup {
-            TabView(selection: $tabtitle){
-                Tab("For You", systemImage:"star",value:"For You"){
-                    NavigationStack{
-                        Startmenu()
-                            .navigationTitle(tabtitle)
-                    }
-                }
-                Tab("Tools", systemImage: "wrench.and.screwdriver", value:"Tools"){
-                    NavigationStack{
-                        ToolsView()
-                            .navigationTitle(tabtitle)
-                    }
-                }
-                Tab("Discover", systemImage: "safari", value: "Discover"){
-                    NavigationStack{
-                        DiscoverView()
-                            .navigationTitle(tabtitle)
-                    }
-                }
-                Tab("Other",systemImage:"ellipsis", value:"Other"){
-                    NavigationStack{
-                        OtherView()
-                            .navigationTitle(tabtitle)
-                    }
-                }
-            }.tabViewStyle(.sidebarAdaptable)
+            ContentView()
         }
     }
 }
 
+
+func formattedDate(_ date: Date) -> String {
+    let formatter = DateFormatter()
+    formatter.dateFormat = "MM/dd HH:mm"
+    return formatter.string(from: date)
+}
+
+func formattedTime(_ date: Date) -> String{
+    let formatter = DateFormatter()
+    formatter.dateFormat = "HH:mm"
+    return formatter.string(from: date)
+}
+
+func formattedIsland(_ date: Date) -> String{
+    let formatter = DateFormatter()
+    formatter.dateFormat = "MM/dd\n HH:mm"
+    return formatter.string(from: date)
+}
+
+public func hello(for date: Date) -> String {
+    let nowHour = Calendar.current.component(.hour, from:Date())
+    if(nowHour < 4){
+        return "Welcome back"
+    }
+    else if(nowHour < 11){
+        return "Good morning"
+    }
+    else if(nowHour < 18){
+        return "Good afternoon"
+    }
+    else{
+        return "Good evening"
+    }
+}
